@@ -15,22 +15,13 @@
     <atom:link href="https://yosong6729.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[자바 ORM 표준 JPA 프로그래밍 - 기본편] 영속성 관리</title>
-      <link>https://yosong6729.github.io/post/%EC%98%81%EC%86%8D%EC%84%B1/</link>
+      <link>https://yosong6729.github.io/post/%EC%98%81%EC%86%8D%EC%84%B1/%EC%98%81%EC%86%8D%EC%84%B1/</link>
       <pubDate>Mon, 09 Sep 2024 18:21:27 +0900</pubDate>
-      <guid>https://yosong6729.github.io/post/%EC%98%81%EC%86%8D%EC%84%B1/</guid>
+      <guid>https://yosong6729.github.io/post/%EC%98%81%EC%86%8D%EC%84%B1/%EC%98%81%EC%86%8D%EC%84%B1/</guid>
       <description>해당 글은 김영한님의 인프런 강의 자바 ORM 표준 JPA 프로그래밍 - 기본편을 듣고 내용을 정리하기 위한 것으로 자세한 설명은 해당 강의를 통해 확인할 수 있습니다.
 영속성 컨텍스트 JPA에서 가장 중요한 2가지 객체와 관계형 데이터베이스 매핑하기(Object Relational Mapping) 영속성 컨텍스트 영속성 컨텍스트는 엔티티를 영구 저장하는 환경이라는 뜻이다. 논리적인 개념이며 눈에 보이지 않는다. 엔티티 매니저를 통해서 영속성 컨텍스트에 접근할 수 있다.
 생명주기 엔티티는 아래와 같은 생명주기가 존재한다.
 비영속 (new/transient) 영속성 컨텍스트와 전혀 관계가 없는 새로운 상태 영속 (managed) 영속성 컨텍스트에 관리되는 상태 준영속 (detached) 영속성 컨텍스트에 저장되었다가 분리된 상 삭제 (removed) 삭제된 상태 비영속 1 2 3 4 //객체를 생성한 상태(비영속) Member member = new Member(); member.</description>
-    </item>
-    <item>
-      <title>[자바 ORM 표준 JPA 프로그래밍 - 기본편] 영속성 관리</title>
-      <link>https://yosong6729.github.io/post/%EC%98%81%EC%86%8D%EC%84%B1/%EC%98%81%EC%86%8D%EC%84%B1/</link>
-      <pubDate>Mon, 09 Sep 2024 18:21:27 +0900</pubDate>
-      <guid>https://yosong6729.github.io/post/%EC%98%81%EC%86%8D%EC%84%B1/%EC%98%81%EC%86%8D%EC%84%B1/</guid>
-      <description>영속성 컨텍스트 JPA에서 가장 중요한 2가지 객체와 관계형 데이터베이스 매핑하기(Object Relational Mapping) 영속성 컨텍스트 영속성 컨텍스트는 엔티티를 영구 저장하는 환경이라는 뜻이다. 논리적인 개념이며 눈에 보이지 않는다. 엔티티 매니저를 통해서 영속성 컨텍스트에 접근할 수 있다.
-생명주기 엔티티는 아래와 같은 생명주기가 존재한다.
-비영속 (new/transient) 영속성 컨텍스트와 전혀 관계가 없는 새로운 상태 영속 (managed) 영속성 컨텍스트에 관리되는 상태 준영속 (detached) 영속성 컨텍스트에 저장되었다가 분리된 상 삭제 (removed) 삭제된 상태 </description>
     </item>
     <item>
       <title>New Post</title>
