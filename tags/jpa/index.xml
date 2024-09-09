@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Yosong6729 Blog</title>
-    <link>https://yosong6729.github.io/</link>
-    <description>Recent content on Yosong6729 Blog</description>
+    <title>JPA on Yosong6729 Blog</title>
+    <link>https://yosong6729.github.io/tags/jpa/</link>
+    <description>Recent content in JPA on Yosong6729 Blog</description>
     <image>
       <title>Yosong6729 Blog</title>
       <url>https://yosong6729.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
     <lastBuildDate>Mon, 09 Sep 2024 18:21:27 +0900</lastBuildDate>
-    <atom:link href="https://yosong6729.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yosong6729.github.io/tags/jpa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[자바 ORM 표준 JPA 프로그래밍 - 기본편] 영속성 관리</title>
       <link>https://yosong6729.github.io/post/%EC%98%81%EC%86%8D%EC%84%B1/</link>
@@ -31,13 +31,6 @@
       <description>영속성 컨텍스트 JPA에서 가장 중요한 2가지 객체와 관계형 데이터베이스 매핑하기(Object Relational Mapping) 영속성 컨텍스트 영속성 컨텍스트는 엔티티를 영구 저장하는 환경이라는 뜻이다. 논리적인 개념이며 눈에 보이지 않는다. 엔티티 매니저를 통해서 영속성 컨텍스트에 접근할 수 있다.
 생명주기 엔티티는 아래와 같은 생명주기가 존재한다.
 비영속 (new/transient) 영속성 컨텍스트와 전혀 관계가 없는 새로운 상태 영속 (managed) 영속성 컨텍스트에 관리되는 상태 준영속 (detached) 영속성 컨텍스트에 저장되었다가 분리된 상 삭제 (removed) 삭제된 상태 </description>
-    </item>
-    <item>
-      <title>New Post</title>
-      <link>https://yosong6729.github.io/post/new-post/</link>
-      <pubDate>Wed, 04 Sep 2024 17:32:42 +0900</pubDate>
-      <guid>https://yosong6729.github.io/post/new-post/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>
