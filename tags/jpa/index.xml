@@ -11,8 +11,19 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Sep 2024 21:26:15 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 11 Sep 2024 16:47:33 +0900</lastBuildDate>
     <atom:link href="https://yosong6729.github.io/tags/jpa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[자바 ORM 표준 JPA 프로그래밍 - 기본편] 연관관계 매핑 기초</title>
+      <link>https://yosong6729.github.io/post/%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84-%EB%A7%A4%ED%95%91-%EA%B8%B0%EC%B4%88/</link>
+      <pubDate>Wed, 11 Sep 2024 16:47:33 +0900</pubDate>
+      <guid>https://yosong6729.github.io/post/%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84-%EB%A7%A4%ED%95%91-%EA%B8%B0%EC%B4%88/</guid>
+      <description>해당 글은 김영한님의 인프런 강의 자바 ORM 표준 JPA 프로그래밍 - 기본편을 듣고 내용을 정리하기 위한 것으로 자세한 설명은 해당 강의를 통해 확인할 수 있습니다.
+연관관계가 필요한 이유 ‘객체지향 설계의 목표는 자율적인 객체들의 협력 공동체를 만드는 것이다.’
+– 조영호(객체지향의 사실과 오해) -
+예제 시나리오 회원과 팀이 있다. 회원은 하나의 팀에만 소속될 수 있다. 회원과 팀은 다대일 관계다. 객체를 테이블에 맞추어 모델링 연관관계가 없는 객체이다.
+@Entity public class Member { @Id @GeneratedValue private Long id; @Column(name = &amp;#34;USERNAME&amp;#34;) private String name; @Column(name = &amp;#34;TEAM_ID&amp;#34;) private Long teamId; … } @Entity public class Team { @Id @GeneratedValue private Long id; private String name; … } 참조 대신에 외래 키를 그대로 사용한다.</description>
+    </item>
     <item>
       <title>[자바 ORM 표준 JPA 프로그래밍 - 기본편] 엔티티 매핑</title>
       <link>https://yosong6729.github.io/post/%EC%97%94%ED%8B%B0%ED%8B%B0-%EB%A7%A4%ED%95%91/</link>
