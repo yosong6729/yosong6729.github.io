@@ -14,10 +14,10 @@
     <lastBuildDate>Tue, 10 Sep 2024 21:26:15 +0900</lastBuildDate>
     <atom:link href="https://yosong6729.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>엔티티 매핑</title>
-      <link>https://yosong6729.github.io/post/%EC%97%94%ED%8B%B0%ED%8B%B0-%EB%A7%A4%ED%95%91/%EC%97%94%ED%8B%B0%ED%8B%B0-%EB%A7%A4%ED%95%91/</link>
+      <title>[자바 ORM 표준 JPA 프로그래밍 - 기본편] 엔티티 매핑</title>
+      <link>https://yosong6729.github.io/post/%EC%97%94%ED%8B%B0%ED%8B%B0-%EB%A7%A4%ED%95%91/</link>
       <pubDate>Tue, 10 Sep 2024 21:26:15 +0900</pubDate>
-      <guid>https://yosong6729.github.io/post/%EC%97%94%ED%8B%B0%ED%8B%B0-%EB%A7%A4%ED%95%91/%EC%97%94%ED%8B%B0%ED%8B%B0-%EB%A7%A4%ED%95%91/</guid>
+      <guid>https://yosong6729.github.io/post/%EC%97%94%ED%8B%B0%ED%8B%B0-%EB%A7%A4%ED%95%91/</guid>
       <description>해당 글은 김영한님의 인프런 강의 자바 ORM 표준 JPA 프로그래밍 - 기본편을 듣고 내용을 정리하기 위한 것으로 자세한 설명은 해당 강의를 통해 확인할 수 있습니다.
 엔티티 매핑 객체와 테이블 매핑: @Entity, @Table 필드와 컬럼 매핑: @Column 기본 키 매핑: @Id 연관관계 매핑: @ManyToOne,@JoinColumn 객체와 테이블 매핑 @Entity
 @Entity가 붙은 클래스는 JPA가 관리, 엔티티라 한다. JPA를 사용해서 테이블과 매핑할 클래스는 @Entity 필수 주의 기본 생성자 필수(파라미터가 없는 public 또는 protected 생성자) final 클래스, enum, interface, inner 클래스 사용X 저장할 필드에 final 사용 X @Entity 속성 정리</description>
