@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Sep 2024 16:47:33 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 12 Sep 2024 15:50:55 +0900</lastBuildDate>
     <atom:link href="https://yosong6729.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[자바 ORM 표준 JPA 프로그래밍 - 기본편] 다양한 연관관계 매핑</title>
+      <link>https://yosong6729.github.io/post/%EB%8B%A4%EC%96%91%ED%95%9C-%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84-%EB%A7%A4%ED%95%91/</link>
+      <pubDate>Thu, 12 Sep 2024 15:50:55 +0900</pubDate>
+      <guid>https://yosong6729.github.io/post/%EB%8B%A4%EC%96%91%ED%95%9C-%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84-%EB%A7%A4%ED%95%91/</guid>
+      <description>해당 글은 김영한님의 인프런 강의 자바 ORM 표준 JPA 프로그래밍 - 기본편을 듣고 내용을 정리하기 위한 것으로 자세한 설명은 해당 강의를 통해 확인할 수 있습니다.
+연관관계 매핑시 고려사항 3가지 다중성 단방향, 양방향 연관관계의 주인 다중성 다대일: @ManyToOne 일대다: @OneToMany 일대일: @OneToOne 다대다: @ManyToMany 단방향, 양방향 테이블 외래 키 하나로 양쪽 조인 가능 사실 방향이라는 개념이 없음 객체 참조용 필드가 있는 쪽으로만 참조 가능 한쪽만 참조하면 단방향 양쪽이 서로 참조하면 양방향 연관관계의 주인 테이블은 외래 키 하나로 두 테이블이 연관관계를 맺음 객체 양방향 관계는 A-&amp;gt;B, B-&amp;gt;A 처럼 참조가 2군데 객체 양방향 관계는 참조가 2군데 있음.</description>
+    </item>
     <item>
       <title>[자바 ORM 표준 JPA 프로그래밍 - 기본편] 연관관계 매핑 기초</title>
       <link>https://yosong6729.github.io/post/%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84-%EB%A7%A4%ED%95%91-%EA%B8%B0%EC%B4%88/</link>
