@@ -11,8 +11,18 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Sep 2024 16:55:02 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 21 Sep 2024 19:42:01 +0900</lastBuildDate>
     <atom:link href="https://yosong6729.github.io/tags/jpa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>도메인 개발</title>
+      <link>https://yosong6729.github.io/post/%EB%8F%84%EB%A9%94%EC%9D%B8-%EA%B0%9C%EB%B0%9C/</link>
+      <pubDate>Sat, 21 Sep 2024 19:42:01 +0900</pubDate>
+      <guid>https://yosong6729.github.io/post/%EB%8F%84%EB%A9%94%EC%9D%B8-%EA%B0%9C%EB%B0%9C/</guid>
+      <description>해당 글은 김영한님의 인프런 강의 스프링부트와 JPA활용1 - 웹 어플리케이션 개발을 듣고 내용을 정리하기 위한 것으로 자세한 설명은 해당 강의를 통해 확인할 수 있습니다.
+예제를 단순화 하기 위해 다음 기능은 구현X
+로그인과 권한 관리X 파라미터 검증과 예외 처리X 상품은 도서만 사용 카테고리는 사용X 배송 정보는 사용X 애플리케이션 아키텍처 계층적 구조 사용
+controller, web: 웹 계층 service: 비즈니스 로직, 트랜잭션 처리 repository: JPA를 직접 사용하는 계층, 엔티티 매니저 사용 domain: 엔티티가 모여 있는 계층, 모든 계층에서 사용 회원 도메인 개발 구현 기능</description>
+    </item>
     <item>
       <title>도메인 분석 설계</title>
       <link>https://yosong6729.github.io/post/%EB%8F%84%EB%A9%94%EC%9D%B8-%EB%B6%84%EC%84%9D-%EC%84%A4%EA%B3%84/</link>
