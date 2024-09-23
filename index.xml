@@ -11,8 +11,17 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Sep 2024 18:17:58 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 23 Sep 2024 16:35:17 +0900</lastBuildDate>
     <atom:link href="https://yosong6729.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API 개발 기본</title>
+      <link>https://yosong6729.github.io/post/api-%EA%B0%9C%EB%B0%9C-%EA%B8%B0%EB%B3%B8/</link>
+      <pubDate>Mon, 23 Sep 2024 16:35:17 +0900</pubDate>
+      <guid>https://yosong6729.github.io/post/api-%EA%B0%9C%EB%B0%9C-%EA%B8%B0%EB%B3%B8/</guid>
+      <description>해당 글은 김영한님의 인프런 강의 스프링부트와 JPA활용2 - API 개발과 성능 최적화을 듣고 내용을 정리하기 위한 것으로 자세한 설명은 해당 강의를 통해 확인할 수 있습니다.
+회원 등록 API 회원 등록 API
+@RestController @RequiredArgsConstructor public class MemberApiController { private final MemberService memberService; @PostMapping(&amp;#34;/api/v1/members&amp;#34;) public CreateMemberResponse saveMemberV1(@RequestBody @Valid Member member) { Long id = memberService.join(member); return new CreateMemberResponse(id); } @Data static class CreateMemberRequest { private String name; } @Data static class CreateMemberResponse { private Long id; public CreateMemberResponse(Long id) { this.</description>
+    </item>
     <item>
       <title>웹 계층 개발</title>
       <link>https://yosong6729.github.io/post/%EC%9B%B9-%EA%B3%84%EC%B8%B5-%EA%B0%9C%EB%B0%9C/</link>
