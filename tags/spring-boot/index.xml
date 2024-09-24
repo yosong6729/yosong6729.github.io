@@ -11,8 +11,18 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Sep 2024 16:35:17 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 24 Sep 2024 16:03:53 +0900</lastBuildDate>
     <atom:link href="https://yosong6729.github.io/tags/spring-boot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>지연 로딩과 조회 성능 최적화</title>
+      <link>https://yosong6729.github.io/post/%EC%A7%80%EC%97%B0-%EB%A1%9C%EB%94%A9%EA%B3%BC-%EC%A1%B0%ED%9A%8C-%EC%84%B1%EB%8A%A5-%EC%B5%9C%EC%A0%81%ED%99%94/</link>
+      <pubDate>Tue, 24 Sep 2024 16:03:53 +0900</pubDate>
+      <guid>https://yosong6729.github.io/post/%EC%A7%80%EC%97%B0-%EB%A1%9C%EB%94%A9%EA%B3%BC-%EC%A1%B0%ED%9A%8C-%EC%84%B1%EB%8A%A5-%EC%B5%9C%EC%A0%81%ED%99%94/</guid>
+      <description>해당 글은 김영한님의 인프런 강의 스프링부트와 JPA활용2 - API 개발과 성능 최적화을 듣고 내용을 정리하기 위한 것으로 자세한 설명은 해당 강의를 통해 확인할 수 있습니다.
+간단한 주문 조회 V1: 엔티티를 직접 노출 @xToOne(ManyToOne, OneToOne) 관계를 최적화 하는데에 집중한다.
+V1은 좋은 방법이 아니기 때문에 간단히 보고 넘어가도 된다.
+@RestController @RequiredArgsConstructor public class OrderSimpleApiController { private final OrderRepository orderRepository; @GetMapping(&amp;#34;/api/v1/simple-orders&amp;#34;) public List&amp;lt;Order&amp;gt; ordersV1() { List&amp;lt;Order&amp;gt; all = orderRepository.findAllByString(new OrderSearch()); for (Order order : all) { //getMember까지는 프록시 객체를 가져오고.</description>
+    </item>
     <item>
       <title>API 개발 기본</title>
       <link>https://yosong6729.github.io/post/api-%EA%B0%9C%EB%B0%9C-%EA%B8%B0%EB%B3%B8/</link>
