@@ -11,19 +11,26 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Sep 2024 20:34:54 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 28 Sep 2024 15:53:12 +0900</lastBuildDate>
     <atom:link href="https://yosong6729.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JPA</title>
       <link>https://yosong6729.github.io/tags/jpa/</link>
-      <pubDate>Wed, 25 Sep 2024 20:34:54 +0900</pubDate>
+      <pubDate>Sat, 28 Sep 2024 15:53:12 +0900</pubDate>
       <guid>https://yosong6729.github.io/tags/jpa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OSIV</title>
+      <link>https://yosong6729.github.io/tags/osiv/</link>
+      <pubDate>Sat, 28 Sep 2024 15:53:12 +0900</pubDate>
+      <guid>https://yosong6729.github.io/tags/osiv/</guid>
       <description></description>
     </item>
     <item>
       <title>Spring Boot</title>
       <link>https://yosong6729.github.io/tags/spring-boot/</link>
-      <pubDate>Wed, 25 Sep 2024 20:34:54 +0900</pubDate>
+      <pubDate>Sat, 28 Sep 2024 15:53:12 +0900</pubDate>
       <guid>https://yosong6729.github.io/tags/spring-boot/</guid>
       <description></description>
     </item>
