@@ -11,8 +11,20 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Sep 2024 20:01:38 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2024 22:22:10 +0900</lastBuildDate>
     <atom:link href="https://yosong6729.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>쿼리 메소드 기능</title>
+      <link>https://yosong6729.github.io/post/%EC%BF%BC%EB%A6%AC-%EB%A9%94%EC%86%8C%EB%93%9C-%EA%B8%B0%EB%8A%A5/</link>
+      <pubDate>Mon, 30 Sep 2024 22:22:10 +0900</pubDate>
+      <guid>https://yosong6729.github.io/post/%EC%BF%BC%EB%A6%AC-%EB%A9%94%EC%86%8C%EB%93%9C-%EA%B8%B0%EB%8A%A5/</guid>
+      <description>해당 글은 김영한님의 인프런 강의 스프링부트와 JPA활용2 - API 개발과 성능 최적화을 듣고 내용을 정리하기 위한 것으로 자세한 설명은 해당 강의를 통해 확인할 수 있습니다.
+쿼리 메소드 기능 3가지
+메소드 이름으로 쿼리 생성 메소드 이름으로 JPA NamedQuery 호출 @Query 어노테이션을 사용해서 리포지토리 인터페이스 쿼리 직접 정의 메소드 이름으로 쿼리 생성 메소드 이름을 분석해서 JPQL 쿼리를 실행한다.
+이름과 나이를 기준으로 회원을 조회하는 상황이다.
+순수 JPA 리포지토리
+public List&amp;lt;Member&amp;gt; findByUsernameAndAgeGreaterThen(String username, int age) { return em.</description>
+    </item>
     <item>
       <title>공통 인터페이스 기능</title>
       <link>https://yosong6729.github.io/post/%EA%B3%B5%ED%86%B5-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4-%EA%B8%B0%EB%8A%A5/</link>
