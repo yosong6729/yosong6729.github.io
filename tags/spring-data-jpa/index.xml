@@ -11,8 +11,18 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Oct 2024 16:16:50 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 04 Oct 2024 19:39:56 +0900</lastBuildDate>
     <atom:link href="https://yosong6729.github.io/tags/spring-data-jpa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>나머지 기능</title>
+      <link>https://yosong6729.github.io/post/%EB%82%98%EB%A8%B8%EC%A7%80-%EA%B8%B0%EB%8A%A5/</link>
+      <pubDate>Fri, 04 Oct 2024 19:39:56 +0900</pubDate>
+      <guid>https://yosong6729.github.io/post/%EB%82%98%EB%A8%B8%EC%A7%80-%EA%B8%B0%EB%8A%A5/</guid>
+      <description>해당 글은 김영한님의 인프런 강의 스프링 데이터 JPA을 듣고 내용을 정리하기 위한 것으로 자세한 설명은 해당 강의를 통해 확인할 수 있습니다
+Specifications(명세) 책 도메인 주도 설계(DDD)는 SPECIFICATION(명세)라는 개념을 소개한다. 스프링 데이터 JPA는 JPA Criteria를 활용해서 이 개념을 사용할 수 있도록 지원한다.
+술어(predicate)
+참 또는 거짓으로 평가 AND OR 같은 연산자로 조합해서 다양한 검색조건을 쉽게 생성(컴포지트 패턴) 예) 검색 조건 하나하나 스프링 데이터 JPA는 org.springframework.data.jpa.domain.Specification클래스로 정의 명세 기능 사용 방법</description>
+    </item>
     <item>
       <title>스프링 데이터 JPA 구현체 분석</title>
       <link>https://yosong6729.github.io/post/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-jpa-%EA%B5%AC%ED%98%84%EC%B2%B4-%EB%B6%84%EC%84%9D/</link>
