@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Oct 2024 19:39:56 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 07 Oct 2024 22:17:33 +0900</lastBuildDate>
     <atom:link href="https://yosong6729.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Querydsl</title>
+      <link>https://yosong6729.github.io/tags/querydsl/</link>
+      <pubDate>Mon, 07 Oct 2024 22:17:33 +0900</pubDate>
+      <guid>https://yosong6729.github.io/tags/querydsl/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Spring Data JPA</title>
       <link>https://yosong6729.github.io/tags/spring-data-jpa/</link>

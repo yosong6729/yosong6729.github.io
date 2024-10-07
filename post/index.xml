@@ -11,8 +11,18 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Oct 2024 19:39:56 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 07 Oct 2024 22:17:33 +0900</lastBuildDate>
     <atom:link href="https://yosong6729.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Querydsl]기본 문법</title>
+      <link>https://yosong6729.github.io/post/querydsl---%EA%B8%B0%EB%B3%B8-%EB%AC%B8%EB%B2%95/</link>
+      <pubDate>Mon, 07 Oct 2024 22:17:33 +0900</pubDate>
+      <guid>https://yosong6729.github.io/post/querydsl---%EA%B8%B0%EB%B3%B8-%EB%AC%B8%EB%B2%95/</guid>
+      <description>해당 글은 김영한님의 인프런 강의 실전! Querydsl을 듣고 내용을 정리하기 위한 것으로 자세한 설명은 해당 강의를 통해 확인할 수 있습니다.
+예제 도메인 모델을 엔티티 클래스와 ERD만 확인하고 넘어가겠다.
+JPQL vs Querydsl 테스트 기본 코드
+@SpringBootTest @Transactional public class QuerydslBasicTest { @PersistenceContext EntityManager em; @BeforeEach public void before() { queryFactory = new JPAQueryFactory(em); Team teamA = new Team(&amp;#34;teamA&amp;#34;); Team teamB = new Team(&amp;#34;teamB&amp;#34;); em.persist(teamA); em.persist(teamB); Member member1 = new Member(&amp;#34;member1&amp;#34;, 10, teamA); Member member2 = new Member(&amp;#34;member2&amp;#34;, 20, teamA); Member member3 = new Member(&amp;#34;member3&amp;#34;, 30, teamB); Member member4 = new Member(&amp;#34;member4&amp;#34;, 40, teamB); em.</description>
+    </item>
     <item>
       <title>나머지 기능</title>
       <link>https://yosong6729.github.io/post/%EB%82%98%EB%A8%B8%EC%A7%80-%EA%B8%B0%EB%8A%A5/</link>
