@@ -11,8 +11,17 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 07 Oct 2024 22:17:33 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 09 Oct 2024 22:07:15 +0900</lastBuildDate>
     <atom:link href="https://yosong6729.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Querydsl] 중급 문법</title>
+      <link>https://yosong6729.github.io/post/querydsl---%EC%A4%91%EA%B8%89-%EB%AC%B8%EB%B2%95/</link>
+      <pubDate>Wed, 09 Oct 2024 22:07:15 +0900</pubDate>
+      <guid>https://yosong6729.github.io/post/querydsl---%EC%A4%91%EA%B8%89-%EB%AC%B8%EB%B2%95/</guid>
+      <description>해당 글은 김영한님의 인프런 강의 실전! Querydsl을 듣고 내용을 정리하기 위한 것으로 자세한 설명은 해당 강의를 통해 확인할 수 있습니다.
+프로젝션 결과 반환 - 기본 프로젝션은 select절의 대상을 지정하는것을 말한다.
+프로젝션 대상이 하나 @Test public void simplePorjection() { List&amp;lt;String&amp;gt; result = queryFactory .select(member.username) .from(member) .fetch(); for (String s : result) { System.out.println(&amp;#34;s = &amp;#34; + s); } } select절에 member.username으로 프로젝션 대상이 하나 이기 때문에 String 타입으로 명확하게 지정이 가능하다.</description>
+    </item>
     <item>
       <title>[Querydsl]기본 문법</title>
       <link>https://yosong6729.github.io/post/querydsl---%EA%B8%B0%EB%B3%B8-%EB%AC%B8%EB%B2%95/</link>
