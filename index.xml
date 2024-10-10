@@ -11,8 +11,17 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Oct 2024 22:07:15 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 10 Oct 2024 17:34:13 +0900</lastBuildDate>
     <atom:link href="https://yosong6729.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Querydsl] 순수 JPA와 Querydsl</title>
+      <link>https://yosong6729.github.io/post/querydsl---%EC%88%9C%EC%88%98-jpa-querydsl/</link>
+      <pubDate>Thu, 10 Oct 2024 17:34:13 +0900</pubDate>
+      <guid>https://yosong6729.github.io/post/querydsl---%EC%88%9C%EC%88%98-jpa-querydsl/</guid>
+      <description>해당 글은 김영한님의 인프런 강의 실전! Querydsl을 듣고 내용을 정리하기 위한 것으로 자세한 설명은 해당 강의를 통해 확인할 수 있습니다.
+순수 JPA 리포지토리와 Querydsl 순수 JPA 리포지토리
+@Repository public class MemberJpaRepository { private final EntityManager em; private final JPAQueryFactory queryFactory; public MemberJpaRepository(EntityManager em) { this.em = em; this.queryFactory = new JPAQueryFactory(em); } public void save(Member member) { em.persist(member); } public Optional&amp;lt;Member&amp;gt; findById(Long id) { Member findMember = em.find(Member.class, id); return Optional.</description>
+    </item>
     <item>
       <title>[Querydsl] 중급 문법</title>
       <link>https://yosong6729.github.io/post/querydsl---%EC%A4%91%EA%B8%89-%EB%AC%B8%EB%B2%95/</link>
