@@ -11,8 +11,19 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Oct 2024 17:34:13 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 11 Oct 2024 16:58:26 +0900</lastBuildDate>
     <atom:link href="https://yosong6729.github.io/tags/querydsl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Querydsl] 스프링 데이터 JPA와 Querydsl</title>
+      <link>https://yosong6729.github.io/post/querydsl---%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-jpa%EC%99%80-querydsl/</link>
+      <pubDate>Fri, 11 Oct 2024 16:58:26 +0900</pubDate>
+      <guid>https://yosong6729.github.io/post/querydsl---%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-jpa%EC%99%80-querydsl/</guid>
+      <description>해당 글은 김영한님의 인프런 강의 실전! Querydsl을 듣고 내용을 정리하기 위한 것으로 자세한 설명은 해당 강의를 통해 확인할 수 있습니다.
+스프링 데이터 JPA 리포지토리 변경 스프링데이터 JPA - MemberRepository 생성
+이전에 순수 JPA로 만든 리포지토리를 스프링 데이터 JPA 리포지토리로 변경하는데 username으로 member를 조회하는 것 빼고는 다 지원되기 때문에 다음과 같이 작성한다.
+public interface MemberRepository extends JpaRepository&amp;lt;Member, Long&amp;gt; { List&amp;lt;Member&amp;gt; findByUsername(String username); } 스프링 데이터 JPA 테스트
+@SpringBootTest @Transactional class MemberRepositoryTest { @Autowired EntityManager em; @Autowired MemberRepository memberRepository; @Test public void basicTest() { Member member = new Member(&amp;#34;member1&amp;#34;, 10); memberRepository.</description>
+    </item>
     <item>
       <title>[Querydsl] 순수 JPA와 Querydsl</title>
       <link>https://yosong6729.github.io/post/querydsl---%EC%88%9C%EC%88%98-jpa-querydsl/</link>
