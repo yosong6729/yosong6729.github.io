@@ -11,8 +11,20 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Oct 2024 16:58:26 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 12 Oct 2024 15:18:51 +0900</lastBuildDate>
     <atom:link href="https://yosong6729.github.io/tags/querydsl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Querydsl] 스프링 데이터 JPA가 제공하는 Querydsl 기능</title>
+      <link>https://yosong6729.github.io/post/querydsl---%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-jpa%EA%B0%80-%EC%A0%9C%EA%B3%B5%ED%95%98%EB%8A%94-querydsl-%EA%B8%B0%EB%8A%A5/</link>
+      <pubDate>Sat, 12 Oct 2024 15:18:51 +0900</pubDate>
+      <guid>https://yosong6729.github.io/post/querydsl---%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-jpa%EA%B0%80-%EC%A0%9C%EA%B3%B5%ED%95%98%EB%8A%94-querydsl-%EA%B8%B0%EB%8A%A5/</guid>
+      <description>해당 글은 김영한님의 인프런 강의 실전! Querydsl을 듣고 내용을 정리하기 위한 것으로 자세한 설명은 해당 강의를 통해 확인할 수 있습니다.
+여기서 소개하는 기능은 제약이 커서 조인이 들어가는 경우 처럼 복잡한 실무 환경에서 사용하기에는 많이 부족하다. 그래도 스프링 데이터에서 제공하는 기능이므로 간단히 소개하고, 왜 부족한지 설명하겠다.
+인터페이스 지원 - QuerydslPredicateExecutor 공식 문서: https://docs.spring.io/spring-data/jpa/docs/2.2.3.RELEASE/reference/html/#core.extensions.querydsl QuerydslPredicateExecutor 인터페이스
+위의 기능들 이외에도 많은 기능들이 있다.
+리포지토리에 적용
+public interface MemberRepository extends JpaRepository&amp;lt;Member, Long&amp;gt;, MemberRepositoryCustom, QuerydslPredicateExecutor&amp;lt;Member&amp;gt; { } 테스트</description>
+    </item>
     <item>
       <title>[Querydsl] 스프링 데이터 JPA와 Querydsl</title>
       <link>https://yosong6729.github.io/post/querydsl---%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-jpa%EC%99%80-querydsl/</link>
